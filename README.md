@@ -67,15 +67,17 @@ t3.fn.countDown(300, "m", "s")
 
 2. 字符串填充
 ```
-	/**
-	 * 字符串填充
-	 * @param str 被填充的数字
-	 * @param fill 填充物，用什么字符串去填充
-	 * @param _len 填完之后字符串总长度
-	 * @param _direction 填充防线，可选值：left / right，默认left
-	 * @returns {string}
-	 */
+/**
+ * 字符串填充
+ * @param str 被填充的数字
+ * @param fill 填充物，用什么字符串去填充
+ * @param _len 填完之后字符串总长度
+ * @param _direction 填充防线，可选值：left / right，默认left
+ * @returns {string}
+ */
 t3.fn.strPad(str, fill, _len, _direction) 
+
+
 ```
 
 
